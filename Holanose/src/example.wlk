@@ -1,7 +1,8 @@
 /** First Wollok example */
 object wollok {
+	var hoal = 0
 	method howAreYou() {
-		return 'hola soy yo
-'
+		hoal +=1 
+		return "ey"
 	}
 }
